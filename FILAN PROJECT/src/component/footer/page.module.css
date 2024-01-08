@@ -1,0 +1,44 @@
+.fullFooter{
+    padding-left: 80px;
+    padding-right: 80px;
+    /* margin?? */
+    /* margin: 0 60px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footerTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.firstRow, .secondRow{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.iconsDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.iconDiv{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
